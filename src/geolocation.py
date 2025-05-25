@@ -19,5 +19,5 @@ def get_geolocation():
             "longitude": longitude
         }
     except Exception as e:
-        print(f"Error fetching geolocation: {e}")
+        print(f"Could not Get Geolocation: {e}")
         return None
